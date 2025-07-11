@@ -1,0 +1,12 @@
+# Ignore Visual Studio folders
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Other
+*.log
+*.vsidx

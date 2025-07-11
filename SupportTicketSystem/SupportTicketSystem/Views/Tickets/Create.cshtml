@@ -1,0 +1,49 @@
+﻿@model SupportTicketSystem.Models.Ticket
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create Ticket</h1>
+
+<form asp-controller="Tickets" asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label asp-for="Subject" class="control-label"></label>
+        <input asp-for="Subject" class="form-control" />
+        <span asp-validation-for="Subject" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Category" class="control-label"></label>
+        <input asp-for="Category" class="form-control" />
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Status" class="control-label"></label>
+        <select asp-for="Status" class="form-control">
+            <option>Open</option>
+            <option>In Progress</option>
+            <option>Resolved</option>
+        </select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <!-- Hidden fields -->
+    <input type="hidden" asp-for="CreatedAt" />
+    <input type="hidden" asp-for="UserId" />
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Submit Ticket" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
