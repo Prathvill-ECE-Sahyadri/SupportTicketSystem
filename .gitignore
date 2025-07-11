@@ -1,0 +1,39 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/chrome/bin
+/Nitro Sense_Acer_3.01.3052_20230420_W11x64/NitroSense_V3.01.3052_MSFT_SIGNED_20230420
+/Nitro Sense_Acer_3.01.3052_20230420_W11x64_A/Nitro Sense_Acer_3.01.3052_20230420_W11x64/NitroSense_V3.01.3052_MSFT_SIGNED_20230420
+/web
+*.exe
+/desktop.ini
+/Genshin Impact.lnk
+/HoYoPlay.lnk
+/index.html
+/js-20250602T152217Z-1-001.zip
+/Module 4 ppt_Project managment.pdf
+/NAME.pdf
+/OEC.pdf
+/Phase 1.1.pdf
+/Phase 1.2.pdf
+/Phase 1.docx
+/Phase 1.pdf
+/Phase I cover sheets done.docx
+/Phase I cover sheets for ME (2)  sujal.docx
+/Phase I cover sheets for ME (2)  sujalppppppppp.docx
+/Plague Inc..lnk
+/Play Store.lnk
+/PP.pdf
+/Project Phase 1 project report Template (3) sujal.docx
+/Project Phase 1 project report Template (3) sujallpp.docx
+/Project Phase 1 project report Template (3) sujallppdf.pdf
+/Project Phase 1 suhasss sir.pdf
+/Project Phase 1 suhasss.docx
+/SE_assignment_[2].doc
+/style.css
+/videoplayback.mp4
+/Wallpaper_M4GT4_Side_Left_Projection_Text_4K.avif
+/SE_assignment_[2].doc
+/SE_assignment_[2].doc
+*.doc
